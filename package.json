@@ -1,0 +1,20 @@
+{
+  "name": "api-skeleton",
+  "version": "1.0.0",
+  "description": "My skeleton to all node rest apis",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikord",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "pino": "^8.4.2"
+  }
+}
