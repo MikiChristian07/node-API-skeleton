@@ -12,3 +12,4 @@ middleware(app);
 app.listen(PORT, () => {
     logger.info(`APP is running on port ${PORT}`);
 })
+
